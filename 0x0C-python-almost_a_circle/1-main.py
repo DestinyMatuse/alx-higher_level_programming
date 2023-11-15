@@ -3,7 +3,6 @@
 from models.rectangle import Rectangle
 
 if __name__ == "__main__":
-
     r1 = Rectangle(10, 2)
     print(r1.id)
 
@@ -12,3 +11,4 @@ if __name__ == "__main__":
 
     r3 = Rectangle(10, 2, 0, 0, 12)
     print(r3.id)
+
